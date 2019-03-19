@@ -1,0 +1,19 @@
+<ng-template #chartSelector>
+    <app-menu #menu (show)="onShow($event)" (hide)="onHide($event)"></app-menu>
+</ng-template>
+<div class="card">
+    <div class="card-header">
+        <h5 class="d-inline">Dashboard</h5>
+        <span class="float-right pr-3">
+           <button class="py-1 mr-2" [ngbPopover]="chartSelector" placement="bottom" ngbTooltip="Toggle Charts">
+               <fa-icon [icon]="['fas', 'bars']"></fa-icon></button>
+        </span>
+    </div>
+    <div class="card-body">
+        <div class="container-fluid">
+            <div class="row">
+                <ng-template appNormalView></ng-template>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+    [
+            {
+                "name": "8",
+                "series": [
+                    {
+                        "name": "FAILED",
+                        "value": "1"
+                    },
+                    {
+                        "name": "IN_PROGRESS",
+                        "value": "2"
+                    },
+                    {
+                        "name": "SUCCESSFUL",
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "name": "13",
+                "series": [
+                    {
+                        "name": "FAILED",
+                        "value": "1"
+                    },
+                    {
+                        "name": "IN_PROGRESS",
+                        "value": "1"
+                    },
+                    {
+                        "name": "SUCCESSFUL",
+                        "value": "10"
+                    }
+                ]
+            }
+        ];

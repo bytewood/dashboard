@@ -1,0 +1,9 @@
+<h5>
+    <label>
+        <input type="checkbox" [(ngModel)]="group.checked" (click)="toggleGroup($event)">
+        {{ group.title }}
+    </label>
+</h5>
+<div *ngFor="let graph of group.graphs">
+    <app-menu-item #menuItem [item]="graph" (show)="onShow($event)" (hide)="onHide($event)"></app-menu-item>
+</div>
