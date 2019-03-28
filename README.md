@@ -8,6 +8,7 @@ Specifically single page webapp that retrieves data from a REST API providing sa
 UI
 - Multiple graphs that can be added to a portal either individually or as groups via a menu.
 - Services that retrieve data from a REST API and whos data is shared amongst several graphs
+
 API
 - dynamically generates a years worth of data.
 
