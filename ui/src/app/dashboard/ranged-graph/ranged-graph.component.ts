@@ -19,10 +19,10 @@ export class RangedGraphComponent extends DashboardItemComponent implements OnIn
     private _maximized = false;
     attributes: DashboardItemAttributes;
 
-    @ViewChild("parent")
+    @ViewChild("parent", {static: false})
     private parent: HTMLElement;
 
-    @ViewChild("chart")
+    @ViewChild("chart", {static: false})
     private chart: BarVertical2DComponent;
 
     @Input()

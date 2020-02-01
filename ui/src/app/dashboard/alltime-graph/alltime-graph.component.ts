@@ -20,7 +20,7 @@ export class AlltimeGraphComponent extends DashboardItemComponent implements Vie
 
     attributes: DashboardItemAttributes;
 
-    @ViewChild("chart")
+    @ViewChild("chart", {static: false})
     chart: PieGridComponent;
 
     @Output()

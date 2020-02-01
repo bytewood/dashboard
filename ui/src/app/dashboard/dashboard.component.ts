@@ -15,10 +15,10 @@ import { MenuComponent } from "./menu/menu.component";
 })
 export class DashboardComponent {
 
-    @ViewChild("menu")
+    @ViewChild("menu", {static: false})
     menu: MenuComponent;
 
-    @ViewChild(NormalViewDirective) dashboardItems: NormalViewDirective;
+    @ViewChild(NormalViewDirective, {static: false}) dashboardItems: NormalViewDirective;
 
     constructor() {
     }
