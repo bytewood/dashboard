@@ -25,7 +25,8 @@ API
 
 ```
 cd api/
-mvn clean spring-boot:run -Dspring.profiles.active=template
+mvn clean spring-boot:run -Dspring-boot.run.profiles=template
+
 cd ../ui/
 npm install
 ng serve

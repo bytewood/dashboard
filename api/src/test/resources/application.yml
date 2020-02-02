@@ -8,6 +8,8 @@ spring:
       hibernate:
         jdbc:
           time_zone: UTC
+  main:
+    allow-bean-definition-overriding: true
 
 logging:
   level:
