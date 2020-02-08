@@ -41,7 +41,7 @@ export class MenuComponent {
     }
 
     toggleAll(event: Event) {
-        if ((event.srcElement as HTMLInputElement).checked) {
+        if ((event.target as HTMLInputElement).checked) {
             this.menuGroups.forEach(g => g.showGroup());
         } else {
             this.menuGroups.forEach((g => g.hideGroup()));
