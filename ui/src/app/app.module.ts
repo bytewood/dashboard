@@ -1,13 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { DashboardModule } from "./dashboard/dashboard.module";
-import { DashboardMetadata } from "./dashboard/model/dashboard-metadata.service";
-import { CustomGraphTypes } from "./custom/custom-graph-types.service";
-import { FaIconComponent, FaIconLibrary, FontAwesomeModule } from "@fortawesome/angular-fontawesome";
-import { fas, faBars, faWindowClose } from "@fortawesome/free-solid-svg-icons";
-import { far, faWindowMaximize, faWindowMinimize, faWindowRestore } from "@fortawesome/free-regular-svg-icons";
+import {AppComponent} from './app.component';
+import {DashboardModule} from "./dashboard/dashboard.module";
+import {GraphTypesService} from "./graphs/graph-types.service";
+import {FaIconComponent, FaIconLibrary, FontAwesomeModule} from "@fortawesome/angular-fontawesome";
+import {faBars, fas, faWindowClose} from "@fortawesome/free-solid-svg-icons";
+import {far, faWindowMaximize, faWindowMinimize, faWindowRestore} from "@fortawesome/free-regular-svg-icons";
+import {CustomGraphTypesService} from "./graphs/custom-graph-types.service";
 
 @NgModule({
     declarations: [
@@ -22,13 +22,13 @@ import { far, faWindowMaximize, faWindowMinimize, faWindowRestore } from "@forta
         AppComponent
     ],
     providers: [
-        {provide: DashboardMetadata, useClass: CustomGraphTypes}
+        {provide: GraphTypesService, useClass: CustomGraphTypesService}
     ],
     entryComponents: [FaIconComponent]
 })
 export class AppModule {
-  constructor(library: FaIconLibrary) {
-    library.addIconPacks(far, fas);
-    library.addIcons(faBars, faWindowClose, faWindowMinimize, faWindowMaximize, faWindowRestore);
-  }
+    constructor(library: FaIconLibrary) {
+        library.addIconPacks(far, fas);
+        library.addIcons(faBars, faWindowClose, faWindowMinimize, faWindowMaximize, faWindowRestore);
+    }
 }

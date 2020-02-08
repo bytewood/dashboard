@@ -1,0 +1,27 @@
+<div class="card mr-2 mb-2">
+    <div class="card-header">
+        {{ metadata.title }}
+        <!--button class="float-right py-1 ml-3" (click)="onClose()">
+            <fa-icon [icon]="closeIcon"></fa-icon>
+        </button-->
+        <button class="float-right py-1 ml-3" (click)="onResize()">
+            <fa-icon [icon]="resizeIcon"></fa-icon>
+        </button>
+        <app-date-picker class="float-right" (changed)="onDateChanged($event)"></app-date-picker>
+    </div>
+    <div class="card-body">
+        <ngx-charts-bar-vertical-2d #chart
+                                    [view]="view"
+                                    [customColors]="customColors"
+                                    [results]="data"
+                                    [gradient]="gradient"
+                                    [xAxis]="showXAxis"
+                                    [yAxis]="showYAxis"
+                                    [legend]="showLegend"
+                                    [showXAxisLabel]="showXAxisLabel"
+                                    [showYAxisLabel]="showYAxisLabel"
+                                    [groupPadding]="'1'"
+                                    [barPadding]="'5'">
+        </ngx-charts-bar-vertical-2d>
+    </div>
+</div>

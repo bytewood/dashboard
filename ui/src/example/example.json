@@ -1,0 +1,1167 @@
+{
+    "metadata" : {
+        "chronoUnit" : "DAYS",
+        "after" : "2020-02-08T22:59:05.123+02:00"
+    },
+    "metrics" : [ {
+        "interval" : 1,
+        "status" : "FAILED",
+        "count" : 3,
+        "sum" : 1330.00,
+        "min" : 60.00,
+        "avg" : 443.3333333333333,
+        "max" : 920.00
+    }, {
+        "interval" : 1,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 680.00,
+        "min" : 680.00,
+        "avg" : 680.0,
+        "max" : 680.00
+    }, {
+        "interval" : 1,
+        "status" : "PARTIAL",
+        "count" : 4,
+        "sum" : 1790.00,
+        "min" : 90.00,
+        "avg" : 447.5,
+        "max" : 910.00
+    }, {
+        "interval" : 1,
+        "status" : "REVIEW",
+        "count" : 4,
+        "sum" : 2600.00,
+        "min" : 420.00,
+        "avg" : 650.0,
+        "max" : 780.00
+    }, {
+        "interval" : 1,
+        "status" : "SUCCESSFUL",
+        "count" : 71,
+        "sum" : 36390.00,
+        "min" : 50.00,
+        "avg" : 512.5352112676056,
+        "max" : 990.00
+    }, {
+        "interval" : 2,
+        "status" : "FAILED",
+        "count" : 3,
+        "sum" : 1260.00,
+        "min" : 190.00,
+        "avg" : 420.0,
+        "max" : 670.00
+    }, {
+        "interval" : 2,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 640.00,
+        "min" : 640.00,
+        "avg" : 640.0,
+        "max" : 640.00
+    }, {
+        "interval" : 2,
+        "status" : "PARTIAL",
+        "count" : 1,
+        "sum" : 260.00,
+        "min" : 260.00,
+        "avg" : 260.0,
+        "max" : 260.00
+    }, {
+        "interval" : 2,
+        "status" : "REVIEW",
+        "count" : 1,
+        "sum" : 90.00,
+        "min" : 90.00,
+        "avg" : 90.0,
+        "max" : 90.00
+    }, {
+        "interval" : 2,
+        "status" : "SUCCESSFUL",
+        "count" : 41,
+        "sum" : 20270.00,
+        "min" : 0.00,
+        "avg" : 494.390243902439,
+        "max" : 990.00
+    }, {
+        "interval" : 3,
+        "status" : "FAILED",
+        "count" : 25,
+        "sum" : 14660.00,
+        "min" : 70.00,
+        "avg" : 586.4,
+        "max" : 970.00
+    }, {
+        "interval" : 3,
+        "status" : "IN_PROGRESS",
+        "count" : 7,
+        "sum" : 3710.00,
+        "min" : 140.00,
+        "avg" : 530.0,
+        "max" : 840.00
+    }, {
+        "interval" : 3,
+        "status" : "PARTIAL",
+        "count" : 7,
+        "sum" : 4730.00,
+        "min" : 30.00,
+        "avg" : 675.7142857142857,
+        "max" : 980.00
+    }, {
+        "interval" : 3,
+        "status" : "REVIEW",
+        "count" : 11,
+        "sum" : 5980.00,
+        "min" : 110.00,
+        "avg" : 543.6363636363636,
+        "max" : 930.00
+    }, {
+        "interval" : 3,
+        "status" : "SUCCESSFUL",
+        "count" : 215,
+        "sum" : 101990.00,
+        "min" : 0.00,
+        "avg" : 474.3720930232558,
+        "max" : 990.00
+    }, {
+        "interval" : 4,
+        "status" : "FAILED",
+        "count" : 18,
+        "sum" : 10120.00,
+        "min" : 0.00,
+        "avg" : 562.2222222222222,
+        "max" : 960.00
+    }, {
+        "interval" : 4,
+        "status" : "IN_PROGRESS",
+        "count" : 6,
+        "sum" : 3500.00,
+        "min" : 70.00,
+        "avg" : 583.3333333333334,
+        "max" : 950.00
+    }, {
+        "interval" : 4,
+        "status" : "PARTIAL",
+        "count" : 10,
+        "sum" : 4200.00,
+        "min" : 220.00,
+        "avg" : 420.0,
+        "max" : 880.00
+    }, {
+        "interval" : 4,
+        "status" : "REVIEW",
+        "count" : 5,
+        "sum" : 3290.00,
+        "min" : 190.00,
+        "avg" : 658.0,
+        "max" : 990.00
+    }, {
+        "interval" : 4,
+        "status" : "SUCCESSFUL",
+        "count" : 147,
+        "sum" : 73240.00,
+        "min" : 0.00,
+        "avg" : 498.2312925170068,
+        "max" : 990.00
+    }, {
+        "interval" : 5,
+        "status" : "FAILED",
+        "count" : 11,
+        "sum" : 4270.00,
+        "min" : 10.00,
+        "avg" : 388.1818181818182,
+        "max" : 830.00
+    }, {
+        "interval" : 5,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 550.00,
+        "min" : 550.00,
+        "avg" : 550.0,
+        "max" : 550.00
+    }, {
+        "interval" : 5,
+        "status" : "PARTIAL",
+        "count" : 2,
+        "sum" : 950.00,
+        "min" : 290.00,
+        "avg" : 475.0,
+        "max" : 660.00
+    }, {
+        "interval" : 5,
+        "status" : "REVIEW",
+        "count" : 8,
+        "sum" : 2980.00,
+        "min" : 50.00,
+        "avg" : 372.5,
+        "max" : 530.00
+    }, {
+        "interval" : 5,
+        "status" : "SUCCESSFUL",
+        "count" : 133,
+        "sum" : 67430.00,
+        "min" : 40.00,
+        "avg" : 506.9924812030075,
+        "max" : 970.00
+    }, {
+        "interval" : 6,
+        "status" : "FAILED",
+        "count" : 15,
+        "sum" : 8410.00,
+        "min" : 200.00,
+        "avg" : 560.6666666666666,
+        "max" : 990.00
+    }, {
+        "interval" : 6,
+        "status" : "IN_PROGRESS",
+        "count" : 4,
+        "sum" : 1440.00,
+        "min" : 120.00,
+        "avg" : 360.0,
+        "max" : 530.00
+    }, {
+        "interval" : 6,
+        "status" : "PARTIAL",
+        "count" : 10,
+        "sum" : 4790.00,
+        "min" : 140.00,
+        "avg" : 479.0,
+        "max" : 980.00
+    }, {
+        "interval" : 6,
+        "status" : "REVIEW",
+        "count" : 9,
+        "sum" : 4440.00,
+        "min" : 70.00,
+        "avg" : 493.3333333333333,
+        "max" : 980.00
+    }, {
+        "interval" : 6,
+        "status" : "SUCCESSFUL",
+        "count" : 143,
+        "sum" : 72420.00,
+        "min" : 0.00,
+        "avg" : 506.43356643356645,
+        "max" : 990.00
+    }, {
+        "interval" : 7,
+        "status" : "FAILED",
+        "count" : 18,
+        "sum" : 9830.00,
+        "min" : 0.00,
+        "avg" : 546.1111111111111,
+        "max" : 950.00
+    }, {
+        "interval" : 7,
+        "status" : "IN_PROGRESS",
+        "count" : 5,
+        "sum" : 2230.00,
+        "min" : 10.00,
+        "avg" : 446.0,
+        "max" : 840.00
+    }, {
+        "interval" : 7,
+        "status" : "PARTIAL",
+        "count" : 11,
+        "sum" : 3800.00,
+        "min" : 10.00,
+        "avg" : 345.45454545454544,
+        "max" : 760.00
+    }, {
+        "interval" : 7,
+        "status" : "REVIEW",
+        "count" : 9,
+        "sum" : 5160.00,
+        "min" : 170.00,
+        "avg" : 573.3333333333334,
+        "max" : 990.00
+    }, {
+        "interval" : 7,
+        "status" : "SUCCESSFUL",
+        "count" : 204,
+        "sum" : 99730.00,
+        "min" : 0.00,
+        "avg" : 488.87254901960785,
+        "max" : 990.00
+    }, {
+        "interval" : 8,
+        "status" : "FAILED",
+        "count" : 8,
+        "sum" : 3970.00,
+        "min" : 230.00,
+        "avg" : 496.25,
+        "max" : 730.00
+    }, {
+        "interval" : 8,
+        "status" : "IN_PROGRESS",
+        "count" : 3,
+        "sum" : 730.00,
+        "min" : 50.00,
+        "avg" : 243.33333333333334,
+        "max" : 450.00
+    }, {
+        "interval" : 8,
+        "status" : "PARTIAL",
+        "count" : 3,
+        "sum" : 1990.00,
+        "min" : 450.00,
+        "avg" : 663.3333333333334,
+        "max" : 850.00
+    }, {
+        "interval" : 8,
+        "status" : "REVIEW",
+        "count" : 5,
+        "sum" : 2290.00,
+        "min" : 50.00,
+        "avg" : 458.0,
+        "max" : 840.00
+    }, {
+        "interval" : 8,
+        "status" : "SUCCESSFUL",
+        "count" : 54,
+        "sum" : 28480.00,
+        "min" : 10.00,
+        "avg" : 527.4074074074074,
+        "max" : 970.00
+    }, {
+        "interval" : 9,
+        "status" : "FAILED",
+        "count" : 11,
+        "sum" : 6700.00,
+        "min" : 190.00,
+        "avg" : 609.0909090909091,
+        "max" : 970.00
+    }, {
+        "interval" : 9,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 990.00,
+        "min" : 990.00,
+        "avg" : 990.0,
+        "max" : 990.00
+    }, {
+        "interval" : 9,
+        "status" : "PARTIAL",
+        "count" : 3,
+        "sum" : 1130.00,
+        "min" : 20.00,
+        "avg" : 376.6666666666667,
+        "max" : 650.00
+    }, {
+        "interval" : 9,
+        "status" : "REVIEW",
+        "count" : 2,
+        "sum" : 960.00,
+        "min" : 240.00,
+        "avg" : 480.0,
+        "max" : 720.00
+    }, {
+        "interval" : 9,
+        "status" : "SUCCESSFUL",
+        "count" : 45,
+        "sum" : 22400.00,
+        "min" : 0.00,
+        "avg" : 497.77777777777777,
+        "max" : 990.00
+    }, {
+        "interval" : 10,
+        "status" : "FAILED",
+        "count" : 17,
+        "sum" : 10630.00,
+        "min" : 0.00,
+        "avg" : 625.2941176470588,
+        "max" : 960.00
+    }, {
+        "interval" : 10,
+        "status" : "IN_PROGRESS",
+        "count" : 4,
+        "sum" : 1520.00,
+        "min" : 120.00,
+        "avg" : 380.0,
+        "max" : 570.00
+    }, {
+        "interval" : 10,
+        "status" : "PARTIAL",
+        "count" : 10,
+        "sum" : 5000.00,
+        "min" : 90.00,
+        "avg" : 500.0,
+        "max" : 920.00
+    }, {
+        "interval" : 10,
+        "status" : "REVIEW",
+        "count" : 8,
+        "sum" : 4770.00,
+        "min" : 260.00,
+        "avg" : 596.25,
+        "max" : 990.00
+    }, {
+        "interval" : 10,
+        "status" : "SUCCESSFUL",
+        "count" : 188,
+        "sum" : 97310.00,
+        "min" : 10.00,
+        "avg" : 517.6063829787234,
+        "max" : 990.00
+    }, {
+        "interval" : 11,
+        "status" : "FAILED",
+        "count" : 12,
+        "sum" : 5000.00,
+        "min" : 90.00,
+        "avg" : 416.6666666666667,
+        "max" : 850.00
+    }, {
+        "interval" : 11,
+        "status" : "IN_PROGRESS",
+        "count" : 6,
+        "sum" : 3890.00,
+        "min" : 220.00,
+        "avg" : 648.3333333333334,
+        "max" : 910.00
+    }, {
+        "interval" : 11,
+        "status" : "PARTIAL",
+        "count" : 7,
+        "sum" : 3340.00,
+        "min" : 20.00,
+        "avg" : 477.14285714285717,
+        "max" : 920.00
+    }, {
+        "interval" : 11,
+        "status" : "REVIEW",
+        "count" : 6,
+        "sum" : 3760.00,
+        "min" : 240.00,
+        "avg" : 626.6666666666666,
+        "max" : 910.00
+    }, {
+        "interval" : 11,
+        "status" : "SUCCESSFUL",
+        "count" : 178,
+        "sum" : 85280.00,
+        "min" : 0.00,
+        "avg" : 479.1011235955056,
+        "max" : 990.00
+    }, {
+        "interval" : 12,
+        "status" : "FAILED",
+        "count" : 14,
+        "sum" : 6840.00,
+        "min" : 110.00,
+        "avg" : 488.57142857142856,
+        "max" : 830.00
+    }, {
+        "interval" : 12,
+        "status" : "IN_PROGRESS",
+        "count" : 3,
+        "sum" : 2080.00,
+        "min" : 650.00,
+        "avg" : 693.3333333333334,
+        "max" : 750.00
+    }, {
+        "interval" : 12,
+        "status" : "PARTIAL",
+        "count" : 5,
+        "sum" : 1470.00,
+        "min" : 80.00,
+        "avg" : 294.0,
+        "max" : 620.00
+    }, {
+        "interval" : 12,
+        "status" : "REVIEW",
+        "count" : 7,
+        "sum" : 3530.00,
+        "min" : 100.00,
+        "avg" : 504.2857142857143,
+        "max" : 830.00
+    }, {
+        "interval" : 12,
+        "status" : "SUCCESSFUL",
+        "count" : 122,
+        "sum" : 57180.00,
+        "min" : 0.00,
+        "avg" : 468.6885245901639,
+        "max" : 990.00
+    }, {
+        "interval" : 13,
+        "status" : "FAILED",
+        "count" : 19,
+        "sum" : 6990.00,
+        "min" : 20.00,
+        "avg" : 367.89473684210526,
+        "max" : 970.00
+    }, {
+        "interval" : 13,
+        "status" : "IN_PROGRESS",
+        "count" : 6,
+        "sum" : 2030.00,
+        "min" : 90.00,
+        "avg" : 338.3333333333333,
+        "max" : 880.00
+    }, {
+        "interval" : 13,
+        "status" : "PARTIAL",
+        "count" : 5,
+        "sum" : 1830.00,
+        "min" : 50.00,
+        "avg" : 366.0,
+        "max" : 880.00
+    }, {
+        "interval" : 13,
+        "status" : "REVIEW",
+        "count" : 8,
+        "sum" : 3720.00,
+        "min" : 0.00,
+        "avg" : 465.0,
+        "max" : 820.00
+    }, {
+        "interval" : 13,
+        "status" : "SUCCESSFUL",
+        "count" : 135,
+        "sum" : 71060.00,
+        "min" : 0.00,
+        "avg" : 526.3703703703703,
+        "max" : 990.00
+    }, {
+        "interval" : 14,
+        "status" : "FAILED",
+        "count" : 19,
+        "sum" : 7970.00,
+        "min" : 0.00,
+        "avg" : 419.4736842105263,
+        "max" : 830.00
+    }, {
+        "interval" : 14,
+        "status" : "IN_PROGRESS",
+        "count" : 5,
+        "sum" : 2240.00,
+        "min" : 110.00,
+        "avg" : 448.0,
+        "max" : 890.00
+    }, {
+        "interval" : 14,
+        "status" : "PARTIAL",
+        "count" : 11,
+        "sum" : 3030.00,
+        "min" : 30.00,
+        "avg" : 275.45454545454544,
+        "max" : 510.00
+    }, {
+        "interval" : 14,
+        "status" : "REVIEW",
+        "count" : 8,
+        "sum" : 3330.00,
+        "min" : 10.00,
+        "avg" : 416.25,
+        "max" : 850.00
+    }, {
+        "interval" : 14,
+        "status" : "SUCCESSFUL",
+        "count" : 195,
+        "sum" : 103320.00,
+        "min" : 0.00,
+        "avg" : 529.8461538461538,
+        "max" : 990.00
+    }, {
+        "interval" : 15,
+        "status" : "FAILED",
+        "count" : 10,
+        "sum" : 6010.00,
+        "min" : 190.00,
+        "avg" : 601.0,
+        "max" : 990.00
+    }, {
+        "interval" : 15,
+        "status" : "IN_PROGRESS",
+        "count" : 4,
+        "sum" : 1970.00,
+        "min" : 140.00,
+        "avg" : 492.5,
+        "max" : 820.00
+    }, {
+        "interval" : 15,
+        "status" : "PARTIAL",
+        "count" : 2,
+        "sum" : 1240.00,
+        "min" : 420.00,
+        "avg" : 620.0,
+        "max" : 820.00
+    }, {
+        "interval" : 15,
+        "status" : "REVIEW",
+        "count" : 5,
+        "sum" : 3120.00,
+        "min" : 250.00,
+        "avg" : 624.0,
+        "max" : 910.00
+    }, {
+        "interval" : 15,
+        "status" : "SUCCESSFUL",
+        "count" : 64,
+        "sum" : 32610.00,
+        "min" : 0.00,
+        "avg" : 509.53125,
+        "max" : 990.00
+    }, {
+        "interval" : 16,
+        "status" : "FAILED",
+        "count" : 5,
+        "sum" : 1900.00,
+        "min" : 80.00,
+        "avg" : 380.0,
+        "max" : 600.00
+    }, {
+        "interval" : 16,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 490.00,
+        "min" : 490.00,
+        "avg" : 490.0,
+        "max" : 490.00
+    }, {
+        "interval" : 16,
+        "status" : "PARTIAL",
+        "count" : 2,
+        "sum" : 1790.00,
+        "min" : 840.00,
+        "avg" : 895.0,
+        "max" : 950.00
+    }, {
+        "interval" : 16,
+        "status" : "REVIEW",
+        "count" : 2,
+        "sum" : 1810.00,
+        "min" : 830.00,
+        "avg" : 905.0,
+        "max" : 980.00
+    }, {
+        "interval" : 16,
+        "status" : "SUCCESSFUL",
+        "count" : 47,
+        "sum" : 25010.00,
+        "min" : 20.00,
+        "avg" : 532.1276595744681,
+        "max" : 980.00
+    }, {
+        "interval" : 17,
+        "status" : "FAILED",
+        "count" : 12,
+        "sum" : 5440.00,
+        "min" : 100.00,
+        "avg" : 453.3333333333333,
+        "max" : 900.00
+    }, {
+        "interval" : 17,
+        "status" : "IN_PROGRESS",
+        "count" : 2,
+        "sum" : 950.00,
+        "min" : 470.00,
+        "avg" : 475.0,
+        "max" : 480.00
+    }, {
+        "interval" : 17,
+        "status" : "PARTIAL",
+        "count" : 8,
+        "sum" : 4060.00,
+        "min" : 120.00,
+        "avg" : 507.5,
+        "max" : 880.00
+    }, {
+        "interval" : 17,
+        "status" : "REVIEW",
+        "count" : 8,
+        "sum" : 3700.00,
+        "min" : 80.00,
+        "avg" : 462.5,
+        "max" : 780.00
+    }, {
+        "interval" : 17,
+        "status" : "SUCCESSFUL",
+        "count" : 201,
+        "sum" : 102520.00,
+        "min" : 10.00,
+        "avg" : 510.0497512437811,
+        "max" : 990.00
+    }, {
+        "interval" : 18,
+        "status" : "FAILED",
+        "count" : 16,
+        "sum" : 9310.00,
+        "min" : 180.00,
+        "avg" : 581.875,
+        "max" : 990.00
+    }, {
+        "interval" : 18,
+        "status" : "IN_PROGRESS",
+        "count" : 4,
+        "sum" : 1780.00,
+        "min" : 50.00,
+        "avg" : 445.0,
+        "max" : 680.00
+    }, {
+        "interval" : 18,
+        "status" : "PARTIAL",
+        "count" : 8,
+        "sum" : 6150.00,
+        "min" : 480.00,
+        "avg" : 768.75,
+        "max" : 950.00
+    }, {
+        "interval" : 18,
+        "status" : "REVIEW",
+        "count" : 5,
+        "sum" : 1510.00,
+        "min" : 10.00,
+        "avg" : 302.0,
+        "max" : 770.00
+    }, {
+        "interval" : 18,
+        "status" : "SUCCESSFUL",
+        "count" : 148,
+        "sum" : 71630.00,
+        "min" : 0.00,
+        "avg" : 483.9864864864865,
+        "max" : 990.00
+    }, {
+        "interval" : 19,
+        "status" : "FAILED",
+        "count" : 10,
+        "sum" : 4510.00,
+        "min" : 0.00,
+        "avg" : 451.0,
+        "max" : 940.00
+    }, {
+        "interval" : 19,
+        "status" : "IN_PROGRESS",
+        "count" : 2,
+        "sum" : 810.00,
+        "min" : 160.00,
+        "avg" : 405.0,
+        "max" : 650.00
+    }, {
+        "interval" : 19,
+        "status" : "PARTIAL",
+        "count" : 11,
+        "sum" : 5720.00,
+        "min" : 170.00,
+        "avg" : 520.0,
+        "max" : 970.00
+    }, {
+        "interval" : 19,
+        "status" : "REVIEW",
+        "count" : 10,
+        "sum" : 5580.00,
+        "min" : 150.00,
+        "avg" : 558.0,
+        "max" : 810.00
+    }, {
+        "interval" : 19,
+        "status" : "SUCCESSFUL",
+        "count" : 116,
+        "sum" : 55730.00,
+        "min" : 0.00,
+        "avg" : 480.4310344827586,
+        "max" : 980.00
+    }, {
+        "interval" : 20,
+        "status" : "FAILED",
+        "count" : 21,
+        "sum" : 11300.00,
+        "min" : 20.00,
+        "avg" : 538.0952380952381,
+        "max" : 950.00
+    }, {
+        "interval" : 20,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 750.00,
+        "min" : 750.00,
+        "avg" : 750.0,
+        "max" : 750.00
+    }, {
+        "interval" : 20,
+        "status" : "PARTIAL",
+        "count" : 5,
+        "sum" : 2290.00,
+        "min" : 120.00,
+        "avg" : 458.0,
+        "max" : 770.00
+    }, {
+        "interval" : 20,
+        "status" : "REVIEW",
+        "count" : 8,
+        "sum" : 4330.00,
+        "min" : 110.00,
+        "avg" : 541.25,
+        "max" : 810.00
+    }, {
+        "interval" : 20,
+        "status" : "SUCCESSFUL",
+        "count" : 153,
+        "sum" : 74390.00,
+        "min" : 0.00,
+        "avg" : 486.2091503267974,
+        "max" : 990.00
+    }, {
+        "interval" : 21,
+        "status" : "FAILED",
+        "count" : 30,
+        "sum" : 14680.00,
+        "min" : 40.00,
+        "avg" : 489.3333333333333,
+        "max" : 970.00
+    }, {
+        "interval" : 21,
+        "status" : "IN_PROGRESS",
+        "count" : 3,
+        "sum" : 1600.00,
+        "min" : 380.00,
+        "avg" : 533.3333333333334,
+        "max" : 620.00
+    }, {
+        "interval" : 21,
+        "status" : "PARTIAL",
+        "count" : 16,
+        "sum" : 6800.00,
+        "min" : 0.00,
+        "avg" : 425.0,
+        "max" : 970.00
+    }, {
+        "interval" : 21,
+        "status" : "REVIEW",
+        "count" : 11,
+        "sum" : 6210.00,
+        "min" : 220.00,
+        "avg" : 564.5454545454545,
+        "max" : 960.00
+    }, {
+        "interval" : 21,
+        "status" : "SUCCESSFUL",
+        "count" : 227,
+        "sum" : 111930.00,
+        "min" : 0.00,
+        "avg" : 493.0837004405286,
+        "max" : 990.00
+    }, {
+        "interval" : 22,
+        "status" : "FAILED",
+        "count" : 6,
+        "sum" : 3750.00,
+        "min" : 440.00,
+        "avg" : 625.0,
+        "max" : 830.00
+    }, {
+        "interval" : 22,
+        "status" : "IN_PROGRESS",
+        "count" : 3,
+        "sum" : 1020.00,
+        "min" : 60.00,
+        "avg" : 340.0,
+        "max" : 840.00
+    }, {
+        "interval" : 22,
+        "status" : "PARTIAL",
+        "count" : 2,
+        "sum" : 150.00,
+        "min" : 20.00,
+        "avg" : 75.0,
+        "max" : 130.00
+    }, {
+        "interval" : 22,
+        "status" : "REVIEW",
+        "count" : 4,
+        "sum" : 1790.00,
+        "min" : 120.00,
+        "avg" : 447.5,
+        "max" : 950.00
+    }, {
+        "interval" : 22,
+        "status" : "SUCCESSFUL",
+        "count" : 75,
+        "sum" : 41910.00,
+        "min" : 30.00,
+        "avg" : 558.8,
+        "max" : 990.00
+    }, {
+        "interval" : 23,
+        "status" : "FAILED",
+        "count" : 6,
+        "sum" : 3640.00,
+        "min" : 70.00,
+        "avg" : 606.6666666666666,
+        "max" : 990.00
+    }, {
+        "interval" : 23,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 440.00,
+        "min" : 440.00,
+        "avg" : 440.0,
+        "max" : 440.00
+    }, {
+        "interval" : 23,
+        "status" : "PARTIAL",
+        "count" : 3,
+        "sum" : 1630.00,
+        "min" : 360.00,
+        "avg" : 543.3333333333334,
+        "max" : 720.00
+    }, {
+        "interval" : 23,
+        "status" : "REVIEW",
+        "count" : 1,
+        "sum" : 260.00,
+        "min" : 260.00,
+        "avg" : 260.0,
+        "max" : 260.00
+    }, {
+        "interval" : 23,
+        "status" : "SUCCESSFUL",
+        "count" : 45,
+        "sum" : 17940.00,
+        "min" : 40.00,
+        "avg" : 398.6666666666667,
+        "max" : 990.00
+    }, {
+        "interval" : 24,
+        "status" : "FAILED",
+        "count" : 30,
+        "sum" : 14710.00,
+        "min" : 10.00,
+        "avg" : 490.3333333333333,
+        "max" : 970.00
+    }, {
+        "interval" : 24,
+        "status" : "IN_PROGRESS",
+        "count" : 7,
+        "sum" : 2640.00,
+        "min" : 10.00,
+        "avg" : 377.14285714285717,
+        "max" : 620.00
+    }, {
+        "interval" : 24,
+        "status" : "PARTIAL",
+        "count" : 9,
+        "sum" : 4580.00,
+        "min" : 60.00,
+        "avg" : 508.8888888888889,
+        "max" : 910.00
+    }, {
+        "interval" : 24,
+        "status" : "REVIEW",
+        "count" : 3,
+        "sum" : 2540.00,
+        "min" : 750.00,
+        "avg" : 846.6666666666666,
+        "max" : 960.00
+    }, {
+        "interval" : 24,
+        "status" : "SUCCESSFUL",
+        "count" : 188,
+        "sum" : 90090.00,
+        "min" : 10.00,
+        "avg" : 479.20212765957444,
+        "max" : 990.00
+    }, {
+        "interval" : 25,
+        "status" : "FAILED",
+        "count" : 16,
+        "sum" : 8660.00,
+        "min" : 0.00,
+        "avg" : 541.25,
+        "max" : 980.00
+    }, {
+        "interval" : 25,
+        "status" : "IN_PROGRESS",
+        "count" : 2,
+        "sum" : 1080.00,
+        "min" : 520.00,
+        "avg" : 540.0,
+        "max" : 560.00
+    }, {
+        "interval" : 25,
+        "status" : "PARTIAL",
+        "count" : 8,
+        "sum" : 4440.00,
+        "min" : 60.00,
+        "avg" : 555.0,
+        "max" : 940.00
+    }, {
+        "interval" : 25,
+        "status" : "REVIEW",
+        "count" : 10,
+        "sum" : 6150.00,
+        "min" : 180.00,
+        "avg" : 615.0,
+        "max" : 850.00
+    }, {
+        "interval" : 25,
+        "status" : "SUCCESSFUL",
+        "count" : 161,
+        "sum" : 80840.00,
+        "min" : 0.00,
+        "avg" : 502.111801242236,
+        "max" : 990.00
+    }, {
+        "interval" : 26,
+        "status" : "FAILED",
+        "count" : 17,
+        "sum" : 6630.00,
+        "min" : 110.00,
+        "avg" : 390.0,
+        "max" : 820.00
+    }, {
+        "interval" : 26,
+        "status" : "IN_PROGRESS",
+        "count" : 6,
+        "sum" : 1580.00,
+        "min" : 60.00,
+        "avg" : 263.3333333333333,
+        "max" : 950.00
+    }, {
+        "interval" : 26,
+        "status" : "PARTIAL",
+        "count" : 4,
+        "sum" : 2410.00,
+        "min" : 330.00,
+        "avg" : 602.5,
+        "max" : 960.00
+    }, {
+        "interval" : 26,
+        "status" : "REVIEW",
+        "count" : 1,
+        "sum" : 560.00,
+        "min" : 560.00,
+        "avg" : 560.0,
+        "max" : 560.00
+    }, {
+        "interval" : 26,
+        "status" : "SUCCESSFUL",
+        "count" : 127,
+        "sum" : 63570.00,
+        "min" : 0.00,
+        "avg" : 500.5511811023622,
+        "max" : 980.00
+    }, {
+        "interval" : 27,
+        "status" : "FAILED",
+        "count" : 12,
+        "sum" : 5410.00,
+        "min" : 10.00,
+        "avg" : 450.8333333333333,
+        "max" : 960.00
+    }, {
+        "interval" : 27,
+        "status" : "IN_PROGRESS",
+        "count" : 5,
+        "sum" : 2830.00,
+        "min" : 330.00,
+        "avg" : 566.0,
+        "max" : 900.00
+    }, {
+        "interval" : 27,
+        "status" : "PARTIAL",
+        "count" : 10,
+        "sum" : 3470.00,
+        "min" : 40.00,
+        "avg" : 347.0,
+        "max" : 920.00
+    }, {
+        "interval" : 27,
+        "status" : "REVIEW",
+        "count" : 13,
+        "sum" : 5990.00,
+        "min" : 10.00,
+        "avg" : 460.7692307692308,
+        "max" : 940.00
+    }, {
+        "interval" : 27,
+        "status" : "SUCCESSFUL",
+        "count" : 155,
+        "sum" : 75570.00,
+        "min" : 0.00,
+        "avg" : 487.5483870967742,
+        "max" : 990.00
+    }, {
+        "interval" : 28,
+        "status" : "FAILED",
+        "count" : 19,
+        "sum" : 8800.00,
+        "min" : 80.00,
+        "avg" : 463.1578947368421,
+        "max" : 930.00
+    }, {
+        "interval" : 28,
+        "status" : "IN_PROGRESS",
+        "count" : 3,
+        "sum" : 1510.00,
+        "min" : 160.00,
+        "avg" : 503.3333333333333,
+        "max" : 940.00
+    }, {
+        "interval" : 28,
+        "status" : "PARTIAL",
+        "count" : 6,
+        "sum" : 3840.00,
+        "min" : 300.00,
+        "avg" : 640.0,
+        "max" : 990.00
+    }, {
+        "interval" : 28,
+        "status" : "REVIEW",
+        "count" : 10,
+        "sum" : 3590.00,
+        "min" : 20.00,
+        "avg" : 359.0,
+        "max" : 680.00
+    }, {
+        "interval" : 28,
+        "status" : "SUCCESSFUL",
+        "count" : 227,
+        "sum" : 111370.00,
+        "min" : 0.00,
+        "avg" : 490.6167400881057,
+        "max" : 980.00
+    }, {
+        "interval" : 29,
+        "status" : "FAILED",
+        "count" : 4,
+        "sum" : 1670.00,
+        "min" : 50.00,
+        "avg" : 417.5,
+        "max" : 850.00
+    }, {
+        "interval" : 29,
+        "status" : "IN_PROGRESS",
+        "count" : 1,
+        "sum" : 800.00,
+        "min" : 800.00,
+        "avg" : 800.0,
+        "max" : 800.00
+    }, {
+        "interval" : 29,
+        "status" : "PARTIAL",
+        "count" : 3,
+        "sum" : 2860.00,
+        "min" : 940.00,
+        "avg" : 953.3333333333334,
+        "max" : 970.00
+    }, {
+        "interval" : 29,
+        "status" : "REVIEW",
+        "count" : 2,
+        "sum" : 1150.00,
+        "min" : 250.00,
+        "avg" : 575.0,
+        "max" : 900.00
+    }, {
+        "interval" : 29,
+        "status" : "SUCCESSFUL",
+        "count" : 56,
+        "sum" : 26630.00,
+        "min" : 0.00,
+        "avg" : 475.5357142857143,
+        "max" : 970.00
+    } ]
+}
