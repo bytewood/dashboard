@@ -8,7 +8,9 @@ import {environment} from "../../../environments/environment";
 import {dbg} from "../../common/logger";
 import {DashboardItemComponent} from "../../dashboard/dashboard-item/dashboard-item.component";
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class ApiService {
 
   constructor(private http: HttpClient) {
