@@ -1,7 +1,13 @@
 import { GraphMetadata } from "./graph-metadata";
+import { DashboardGroupMetadata } from "../../dashboard/metadata/dashboard-group-metadata";
 
-export class GraphGroupMetadata {
-    constructor(public title: string, public checked: boolean, public name: string,
-                public graphs: GraphMetadata[]) {
+export class GraphGroupMetadata extends DashboardGroupMetadata {
+
+    constructor(title: string, selected: boolean, public name: string) {
+        super(selected, title);
+    }
+
+    set graphs(graphs: GraphMetadata[]) {
+        this.items = graphs;
     }
 }

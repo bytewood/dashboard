@@ -13,6 +13,7 @@ import {CustomGraphTypesService} from "../custom-graph-types.service";
 import {GraphMetadata} from "../metadata/graph-metadata";
 import {Aggregate} from "../aggregrate";
 import {RangedGraphComponent} from "../ranged-graph/ranged-graph.component";
+import { GraphGroupMetadata } from "../metadata/graph-group-metadata";
 
 describe('AlltimeGraphComponent', () => {
     let component: AlltimeGraphComponent;
@@ -38,10 +39,10 @@ describe('AlltimeGraphComponent', () => {
                 {provide: GraphTypesService, useClass: CustomGraphTypesService}
             ]
         }).compileComponents();
-
+        const gm = new GraphGroupMetadata("", false, "");
         fixture = TestBed.createComponent(AlltimeGraphComponent);
         component = fixture.componentInstance;
-        component.metadata = new GraphMetadata(false, "", Aggregate.count, "count", "days", RangedGraphComponent);
+        component.metadata = new GraphMetadata(gm, false, "", Aggregate.count, "days", RangedGraphComponent);
         fixture.detectChanges();
     });
 

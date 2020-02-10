@@ -1,20 +1,21 @@
-import {Component, OnInit} from '@angular/core';
-import {DashboardItemMetadata} from "./dashboard-item-metadata";
+import { Component, OnInit } from '@angular/core';
+import { DashboardItemMetadata } from "../metadata/dashboard-item-metadata";
+import { UiSyncService } from "../../ui-sync.service";
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 
 @Component({
     selector: 'app-item',
-    template: '',
-    styles: []
+    template: ''
 })
 export abstract class DashboardItemComponent implements OnInit {
-    private readonly RESTORE_ICON = ['far', 'window-restore'];
-    private readonly MINIMIZE_ICON = ['far', 'window-minimize'];
-    private readonly MAXIMIZE_ICON = ['far', 'window-maximize'];
-    private readonly CLOSE_ICON = ['far', 'window-close'];
+    private readonly RESTORE_ICON = ['far', 'window-restore'] as IconProp;
+    private readonly MINIMIZE_ICON = ['far', 'window-minimize'] as IconProp;
+    private readonly MAXIMIZE_ICON = ['far', 'window-maximize'] as IconProp;
+    private readonly CLOSE_ICON = ['far', 'window-close'] as IconProp;
 
     private _maximized = false;
 
-    protected cardWidth = window.innerWidth / 3;
+    protected cardWidth = parent.innerWidth / 3;
     protected cardHeight = this.cardWidth / 1.618;
 
     data: any;
@@ -27,7 +28,7 @@ export abstract class DashboardItemComponent implements OnInit {
     previousView = [];
     view = [];
 
-    protected constructor() {
+    protected constructor(private readonly sync: UiSyncService) {
     }
 
     onResize() {
@@ -39,8 +40,12 @@ export abstract class DashboardItemComponent implements OnInit {
             this._maximized = true;
             this.resizeIcon = this.RESTORE_ICON;
             this.previousView = this.view;
-            this.view = [window.innerWidth - 84, this.cardHeight];
+            this.view = [this.cardWidth, this.cardHeight];
         }
+    }
+
+    onClose() {
+        this.sync.closeDashboardItem(this.metadata);
     }
 
     ngOnInit(): void {

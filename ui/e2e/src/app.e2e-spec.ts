@@ -9,6 +9,6 @@ describe('workspace-project App', () => {
 
     it('should be an app-dashboard', () => {
         page.navigateTo();
-        expect(page.getComponentById('dashboard').getTagName()).toEqual("app-dashboard")
+        expect(page.getComponentById('dashboard').getTagName()).toEqual("app-dashboard");
     });
 });

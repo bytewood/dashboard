@@ -1,9 +1,10 @@
-import {Component, EventEmitter, OnInit, Output, ViewChild} from '@angular/core';
-import {ApiService} from "../api/api.service";
-import {PieGridComponent} from "@swimlane/ngx-charts";
-import {GraphConfig} from "../graph-config";
-import {DashboardItemComponent} from "../../dashboard/dashboard-item/dashboard-item.component";
-import {GraphMetadata} from "../metadata/graph-metadata";
+import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
+import { ApiService } from "../api/api.service";
+import { PieGridComponent } from "@swimlane/ngx-charts";
+import { GraphConfig } from "../graph-config";
+import { DashboardItemComponent } from "../../dashboard/dashboard-item/dashboard-item.component";
+import { GraphMetadata } from "../metadata/graph-metadata";
+import { UiSyncService } from "../../ui-sync.service";
 
 @Component({
     selector: 'app-alltime-graph',
@@ -22,8 +23,8 @@ export class AlltimeGraphComponent extends DashboardItemComponent implements OnI
 
     customColors = GraphConfig.statusColors;
 
-    constructor(private dataService: ApiService) {
-        super();
+    constructor(private readonly dataService: ApiService, sync: UiSyncService) {
+        super(sync);
     }
 
     ngOnInit() {

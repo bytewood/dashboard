@@ -13,6 +13,7 @@ import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import {GraphMetadata} from "../metadata/graph-metadata";
 import {Aggregate} from "../aggregrate";
+import { GraphGroupMetadata } from "../metadata/graph-group-metadata";
 
 describe('RangedGraphComponent', () => {
     let component: RangedGraphComponent;
@@ -41,9 +42,10 @@ describe('RangedGraphComponent', () => {
     }));
 
     beforeEach(() => {
+        const gm = new GraphGroupMetadata("", false, "");
         fixture = TestBed.createComponent(RangedGraphComponent);
         component = fixture.componentInstance;
-        component.metadata = new GraphMetadata(false, "", Aggregate.count, "count", "days", RangedGraphComponent);
+        component.metadata = new GraphMetadata(gm, false, "", Aggregate.count, "days", RangedGraphComponent);
         fixture.detectChanges();
     });
 

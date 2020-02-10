@@ -1,9 +1,9 @@
 <h5>
     <label>
-        <input type="checkbox" [(ngModel)]="group.checked" (click)="toggleGroup($event)">
-        {{ group.title }}
+        <input type="checkbox" [(ngModel)]="groupMetadata.selected" (click)="toggleGroup($event)">
+        {{ groupMetadata.title }}
     </label>
 </h5>
-<div *ngFor="let graph of group.graphs">
-    <app-menu-item [item]="graph" (show)="onShow($event)" (hide)="onHide($event)"></app-menu-item>
+<div *ngFor="let metadata of groupMetadata.items">
+    <app-menu-item [metadata]="metadata"></app-menu-item>
 </div>

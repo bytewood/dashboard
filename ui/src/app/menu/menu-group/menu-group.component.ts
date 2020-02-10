@@ -1,64 +1,55 @@
-import { Component } from '@angular/core';
-import { Input } from "@angular/core";
-import { ViewChildren } from "@angular/core";
-import { QueryList } from "@angular/core";
-import { Output } from "@angular/core";
-import { EventEmitter } from "@angular/core";
-import { GraphGroupMetadata } from "../../graphs/metadata/graph-group-metadata";
+import { Component, Input, OnDestroy, QueryList, ViewChildren } from '@angular/core';
 import { MenuItemComponent } from "./menu-item/menu-item.component";
-import { GraphMetadata } from "../../graphs/metadata/graph-metadata";
+import { UiSyncService } from "../../ui-sync.service";
+import { DashboardGroupMetadata } from "../../dashboard/metadata/dashboard-group-metadata";
+import { merge, Subscription } from "rxjs";
 
 @Component({
     selector: 'app-menu-group',
     templateUrl: './menu-group.component.html'
 })
-export class MenuGroupComponent {
+export class MenuGroupComponent implements OnDestroy {
 
     @Input()
-    group: GraphGroupMetadata;
+    groupMetadata: DashboardGroupMetadata;
 
     @ViewChildren(MenuItemComponent)
     menuItems: QueryList<MenuItemComponent>;
 
-    @Output()
-    show: EventEmitter<GraphMetadata> = new EventEmitter();
+    private _subscriptions: Subscription[] = [];
 
-    @Output()
-    hide: EventEmitter<GraphMetadata> = new EventEmitter();
+    constructor(private readonly sync: UiSyncService) {
+        this._subscriptions.push(
+            this.sync.menuAll$.subscribe(metadata => metadata.selected ? this.selectGroup() : this.unselectGroup()));
 
-    constructor() {
+        this._subscriptions.push(
+            merge(this.sync.dashboardItems$, this.sync.menuItems$).subscribe(_ => this.calculateChecked()));
     }
 
     toggleGroup(event: Event) {
         event.cancelBubble = true;
-        this.menuItems.forEach(m => ((event.target as HTMLInputElement).checked) ? m.showItem() : m.hideItem());
+        this.toggle((event.target as HTMLInputElement).checked);
     }
 
-    onShow(item: GraphMetadata) {
-        this.show.emit(item);
+    private toggle(selected: boolean) {
+        selected ? this.selectGroup() : this.unselectGroup();
     }
 
-    onHide(item: GraphMetadata) {
-        this.hide.emit(item);
+    selectGroup() {
+        this.groupMetadata.items.forEach(_ => this.sync.selectMenuGroup(this.groupMetadata));
     }
 
-    showGroup() {
-        if (!this.group.checked) {
-            this.menuItems.forEach(m => {
-                m.showItem();
-            });
-        }
-    }
-
-    hideGroup() {
-        if (this.group.checked) {
-            this.menuItems.forEach(m => m.hideItem());
-        }
+    unselectGroup() {
+        this.groupMetadata.items.forEach(_ => this.sync.unselectMenuGroup(this.groupMetadata));
     }
 
     calculateChecked() {
-        this.group.checked = this.group.graphs
-            .map(i => i.checked)
+        this.groupMetadata.selected = this.groupMetadata.items
+            .map(i => i.selected)
             .reduce((previous, current) => previous && current);
+    }
+
+    ngOnDestroy(): void {
+        this._subscriptions.forEach(s => s.unsubscribe());
     }
 }

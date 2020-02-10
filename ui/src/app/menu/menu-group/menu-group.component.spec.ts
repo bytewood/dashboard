@@ -24,7 +24,7 @@ describe('MenuGroupComponent', () => {
     beforeEach(() => {
         fixture = TestBed.createComponent(MenuGroupComponent);
         component = fixture.componentInstance;
-        component.group = new GraphGroupMetadata("Test Title", false, "Test Name", null);
+        component.groupMetadata = new GraphGroupMetadata("Test Title", false, "Test Name");
         fixture.detectChanges();
     });
 

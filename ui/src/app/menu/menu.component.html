@@ -1,7 +1,7 @@
 <label>
-    <input type="checkbox" [(ngModel)]="checked" (click)="toggleAll($event)">
+    <input type="checkbox" [(ngModel)]="metadata.selected" (click)="toggleAll($event)">
     All Items
 </label>
-<div *ngFor="let group of groups">
-    <app-menu-group #menuGroup [group]="group" (show)="onShow($event)" (hide)="onHide($event)"></app-menu-group>
+<div *ngFor="let metadata of metadata.groups">
+    <app-menu-group [groupMetadata]="metadata"></app-menu-group>
 </div>

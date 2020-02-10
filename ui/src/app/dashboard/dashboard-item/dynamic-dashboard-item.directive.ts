@@ -1,6 +1,6 @@
-import {ComponentFactoryResolver, Directive, ViewContainerRef} from "@angular/core";
-import {dbg} from "../../common/logger";
-import {DashboardItemMetadata} from "./dashboard-item-metadata";
+import { ComponentFactoryResolver, Directive, ViewContainerRef } from "@angular/core";
+import { dbg } from "../../common/logger";
+import { DashboardItemMetadata } from "../metadata/dashboard-item-metadata";
 
 @Directive({
     selector: '[appDynamicDashboardItem]'
