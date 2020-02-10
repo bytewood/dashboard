@@ -15,12 +15,6 @@ import { UiSyncService } from "../../ui-sync.service";
 })
 export class AlltimeGraphComponent extends DashboardItemComponent implements OnInit {
 
-    @ViewChild("chart", {static: false})
-    chart: PieGridComponent;
-
-    @Output()
-    resize: EventEmitter<boolean> = new EventEmitter();
-
     customColors = GraphConfig.statusColors;
 
     constructor(private readonly dataService: ApiService, sync: UiSyncService) {

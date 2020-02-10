@@ -10,8 +10,7 @@
         <app-date-picker class="float-right" (changed)="onDateChanged($event)"></app-date-picker>
     </div>
     <div class="card-body">
-        <ngx-charts-bar-vertical-2d #chart
-                                    [view]="view"
+        <ngx-charts-bar-vertical-2d [view]="view"
                                     [customColors]="customColors"
                                     [results]="data"
                                     [gradient]="gradient"
@@ -20,8 +19,8 @@
                                     [legend]="showLegend"
                                     [showXAxisLabel]="showXAxisLabel"
                                     [showYAxisLabel]="showYAxisLabel"
-                                    [groupPadding]="'1'"
-                                    [barPadding]="'5'">
+                                    [groupPadding]=1
+                                    [barPadding]=5>
         </ngx-charts-bar-vertical-2d>
     </div>
 </div>
