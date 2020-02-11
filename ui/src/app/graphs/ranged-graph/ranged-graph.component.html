@@ -4,23 +4,26 @@
         <button class="float-right py-1 ml-3" (click)="onClose()">
             <fa-icon [icon]="closeIcon"></fa-icon>
         </button>
-        <button class="float-right py-1 ml-3" (click)="onResize()">
-            <fa-icon [icon]="resizeIcon"></fa-icon>
+        <button class="float-right py-1 ml-3" (click)="onRestore()" [hidden]="!maximized">
+            <fa-icon [icon]="restoreIcon"></fa-icon>
+        </button>
+        <button class="float-right py-1 ml-3" (click)="onMaximize()" [hidden]="maximized">
+            <fa-icon [icon]="maximizeIcon"></fa-icon>
         </button>
         <app-date-picker class="float-right" (changed)="onDateChanged($event)"></app-date-picker>
     </div>
     <div class="card-body">
-        <ngx-charts-bar-vertical-2d [view]="view"
-                                    [customColors]="customColors"
-                                    [results]="data"
-                                    [gradient]="gradient"
-                                    [xAxis]="showXAxis"
-                                    [yAxis]="showYAxis"
-                                    [legend]="showLegend"
-                                    [showXAxisLabel]="showXAxisLabel"
-                                    [showYAxisLabel]="showYAxisLabel"
-                                    [groupPadding]=1
-                                    [barPadding]=5>
-        </ngx-charts-bar-vertical-2d>
+            <ngx-charts-bar-vertical-2d [customColors]="customColors"
+                                        [results]="data"
+                                        [gradient]="gradient"
+
+                                        [xAxis]="showXAxis"
+                                        [yAxis]="showYAxis"
+                                        [legend]="showLegend"
+                                        [showXAxisLabel]="showXAxisLabel"
+                                        [showYAxisLabel]="showYAxisLabel"
+                                        [groupPadding]=3
+                                        [barPadding]=0>
+            </ngx-charts-bar-vertical-2d>
     </div>
 </div>
